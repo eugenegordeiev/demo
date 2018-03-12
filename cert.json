@@ -1,0 +1,23 @@
+{
+  "data": {
+    "created": "2018-03-12T21:07:59Z",
+    "email": "eugene.gordeiev@gmail.com",
+    "expires": "2023-03-13T00:00:00Z",
+    "name": "demo",
+    "uuid": "5efa4bb1-1893-4bd4-87aa-6fbe6e82095c"
+  },
+  "publicKey": {
+    "algorithm": "RSA",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwDUoDgJJktE/V7vxjF2e0dzeXwctIJeucp+EXlnfC7VljhLuHKc1KuPQYq9aKqmnaac5k4XaRrO/HT0R0C8ne/bv8yOY/ZJYoVfhBIGIVooffJ+M1bGyY2G/AxO08tjCNci3lve6VOFRj+90ZInokDcDWujEjtTmI5xB9dJrBG38pmeCoyB5nglTGoKWEjd08tvuU/AI3n4EOo+/TSCKDtvyYx9ksUno11CxoG3Gp7N4D9+mqXj01olF/M7GQmU+lPNqjAPTFS6dfaMtVWUByyH9c1aRIOV6Mj1Ywpryd22Yv1+eEScWix3ePTGI6PAPjJeJ1VyCzxHzVOlZcrq01wIDAQAB"
+  },
+  "signatures": [
+    {
+      "name": "demo",
+      "uuid": "5efa4bb1-1893-4bd4-87aa-6fbe6e82095c",
+      "created": "2018-03-12T21:08:00Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "1l4wCKugTv0\u003d",
+      "signature": "GVgNx+ETGUYR3oEkZZVBs/MDo2ZtPVNiw9FqQzR0+Sv87NOkUqa38dkpJxJi/OQLFbJR5lyexxR06layEa652OUyCbbcimO5qFwAbjWsW0PfMtdv77/yhjGoWlFOBcjeNUqpbcAb0YN2mHrSGcQmAyoyB91lUs1zl9FSype15bQxwU4HBIKpRctGPM+u7PLnBnyz1hUMyXwMQizRkyYCThxid3UHKCsgK4Y7bnHwpKMPFuDV7S7DuS1a7x6yLR28sAUVSzOOY+jJ0lQgunxebBGlLGruz0Zwg4OLcW2ISKWDKgF4NyB/ySdfHRKZjuKMJwDrhUb5BQ9SpJT5I6SQkw\u003d\u003d"
+    }
+  ]
+}

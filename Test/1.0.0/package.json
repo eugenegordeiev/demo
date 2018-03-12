@@ -1,0 +1,65 @@
+{
+  "name": "Test",
+  "namespace": "Test",
+  "format": "1",
+  "version": "1.0.0",
+  "creator": "demo",
+  "summary": "Short summary",
+  "detailedDescription": "Long description of package",
+  "type": "code",
+  "signatures": [
+    {
+      "name": "demo",
+      "uuid": "5efa4bb1-1893-4bd4-87aa-6fbe6e82095c",
+      "created": "2018-03-12T21:09:35Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "qVTc+tjc7ic\u003d",
+      "signature": "lTXlCeHupy5vJ0yHxPdmDdxpeTQZVBMI04sttjHfE6AEv2RTg3C82JMrnwADW+cVAqE7PlXGBtwDDjr++Vr66jMTgOnueiiyVC+Eo+3h/hU3htM8LKbo4A+ZAu6x5flAGqVaF/PrLLg/lBQR8alW0+7dk1706s45RzJF7WG01CD8Ez7oK/NuOsjUKdBzygTs/UmvwDnjjbxzL7Gc7Sa15oj8Lc0oaeTuh9SU+OsHgixnbxcYTQsB5I+P360eDnqQA3qhXyz3fblxBNg/98ooF9Ti1AskG1QjgKPKpWSprKyoXlD/l/tS2/wD3VhhyWx3UKf3p40Z7RP45TsGugqJSQ\u003d\u003d"
+    }
+  ],
+  "resources": [
+    {
+      "path": "${package.dir}/resources",
+      "output": "shared"
+    }
+  ],
+  "slicer": {
+    "js": [
+      {
+        "path": "${package.dir}/sass/example/custom.js",
+        "isWidgetManifest": true
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "output": "${package.dir}/build",
+  "sass": {
+    "namespace": "Test",
+    "etc": [
+      "${package.dir}/sass/etc/all.scss",
+      "${package.dir}/${toolkit.name}/sass/etc/all.scss"
+    ],
+    "var": [
+      "${package.dir}/sass/var",
+      "${package.dir}/${toolkit.name}/sass/var"
+    ],
+    "src": [
+      "${package.dir}/sass/src",
+      "${package.dir}/${toolkit.name}/sass/src"
+    ]
+  },
+  "classpath": [
+    "${package.dir}/src",
+    "${package.dir}/${toolkit.name}/src"
+  ],
+  "overrides": [
+    "${package.dir}/overrides",
+    "${package.dir}/${toolkit.name}/overrides"
+  ],
+  "example": {
+    "path": [
+      "${package.dir}/examples"
+    ]
+  },
+  "framework": "ext621"
+}
